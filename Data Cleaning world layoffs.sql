@@ -184,4 +184,5 @@ and t2.industry is not null;
   alter TABLE layoffs_staging2
   DROP column row_num;
   
-  
+  select *
+  from layoffs_staging2
